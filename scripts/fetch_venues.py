@@ -9,7 +9,7 @@ import requests
 from bs4 import BeautifulSoup
 
 PLAYO_AUTH = os.getenv("PLAYO_AUTH", "")
-assert len(PLAYO_AUTH) > 0, "Please set PLAYO_AUTH env var"
+#assert len(PLAYO_AUTH) > 0, "Please set PLAYO_AUTH env var"
 HERE = dirname(abspath(__file__))
 
 with open(join(HERE, "..", "js", "locations.json")) as f:
